@@ -33,7 +33,7 @@ class FitFaceView extends Ui.WatchFace {
     }
     
     function getSteps() {
-        var steps = ActivityMonitor.History.steps;
+        var steps = ActivityMonitor.getInfo().steps;
         if (steps == null) {
             steps = 0;
         }
@@ -80,7 +80,8 @@ class FitFaceView extends Ui.WatchFace {
 
     // Load your resources here
     function onLayout(dc) {
-        setLayout(Rez.Layouts.WatchFace(dc));
+        var layout = Rez.Layouts.WatchFace(dc);
+        setLayout(layout);
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -107,6 +108,7 @@ class FitFaceView extends Ui.WatchFace {
 
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() {
+        updateStepsDisplay();
     }
 
     // Terminate any active timers and prepare for slow updates.
