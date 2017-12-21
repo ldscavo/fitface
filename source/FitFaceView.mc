@@ -3,9 +3,77 @@ using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 using Toybox.Lang as Lang;
 using Toybox.Application as App;
+using Toybox.Time;
+using Toybox.Time.Gregorian;
+using Toybox.ActivityMonitor;
 
 class FitFaceView extends Ui.WatchFace {
-
+    function getTimeString() {
+        var timeFormat = "$1$:$2$";
+        var clockTime = Sys.getClockTime();
+        var hours = clockTime.hour;
+        if (!Sys.getDeviceSettings().is24Hour) {
+            if (hours > 12) {
+                hours = hours - 12;
+            }
+        } else {
+            if (App.getApp().getProperty("UseMilitaryFormat")) {
+                timeFormat = "$1$$2$";
+                hours = hours.format("%02d");
+            }
+        }
+        return Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
+    }
+    
+    function getDateString() {
+        var date = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+        var dateFormat = "$1$ $2$ $3$";
+        
+        return Lang.format(dateFormat, [date.day_of_week, date.month, date.day]);
+    }
+    
+    function getSteps() {
+        var steps = ActivityMonitor.History.steps;
+        if (steps == null) {
+            steps = 0;
+        }
+        
+        return steps;
+    }
+    
+    function getStepString() {
+        var steps = getSteps();
+        
+        return Lang.format("$1$ Steps", [steps]);
+    }
+    
+    function updateStepsDisplay() {
+        var stepsString = getStepString();
+        var font = Ui.loadResource(Rez.Fonts.Carlito);
+        
+        var stepsView = View.findDrawableById("StepsLabel");
+        stepsView.setFont(font);
+        stepsView.setText(stepsString);
+    }
+    
+    function updateTimeDisplay() {
+        var timeString = getTimeString();
+        var font = Ui.loadResource(Rez.Fonts.Carlito_Large);
+        
+        var timeView = View.findDrawableById("TimeLabel");
+        timeView.setFont(font);
+        timeView.setText(timeString);
+    }
+    
+    function updateDateDisplay() {
+        var dateString = getDateString();                
+        var font = Ui.loadResource(Rez.Fonts.Carlito);
+        
+        var dateView = View.findDrawableById("DateLabel");
+        dateView.setFont(font);
+        dateView.setText(dateString);
+    }
+    
     function initialize() {
         WatchFace.initialize();
     }
@@ -22,27 +90,10 @@ class FitFaceView extends Ui.WatchFace {
     }
 
     // Update the view
-    function onUpdate(dc) {
-        // Get the current time and format it correctly
-        var timeFormat = "$1$:$2$";
-        var clockTime = Sys.getClockTime();
-        var hours = clockTime.hour;
-        if (!Sys.getDeviceSettings().is24Hour) {
-            if (hours > 12) {
-                hours = hours - 12;
-            }
-        } else {
-            if (App.getApp().getProperty("UseMilitaryFormat")) {
-                timeFormat = "$1$$2$";
-                hours = hours.format("%02d");
-            }
-        }
-        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
-
-        // Update the view
-        var view = View.findDrawableById("TimeLabel");
-        view.setColor(App.getApp().getProperty("ForegroundColor"));
-        view.setText(timeString);
+    function onUpdate(dc) {     
+        updateTimeDisplay();
+        updateDateDisplay(); 
+        updateStepsDisplay();       
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);

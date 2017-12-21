@@ -1,0 +1,6 @@
+bg:		0000ff
+circle:	ffaa00
+rail:	aaaaaa
+time:	ffffff
+steps:	ffaaaa
+avg:	ffffaa

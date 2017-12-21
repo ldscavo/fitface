@@ -1,0 +1,6 @@
+<resources>
+	<fonts>
+    	<font id="Carlito" filename="fonts/carlito.fnt" antialias="true" />
+    	<font id="Carlito_Large" filename="fonts/carlito_large.fnt" antialias="true" filter="0123456789:" />
+  	</fonts>
+</resources>
