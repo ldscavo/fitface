@@ -1,6 +1,7 @@
 <layout id="WatchFace">
-    <drawable class="Background" />
-    <label id="StepsLabel" x="center" y="55" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
-    <label id="TimeLabel" x="center" y="80" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
-    <label id="DateLabel" x="center" y="150" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
+    <drawable class="Background" />    
+    <label id="StepsLabel" x="center" y="50" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label id="TimeLabel" x="center" y="75" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label id="DateLabel" x="center" y="140" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label id="HeartRateLabel" x="center" y="175" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 </layout>
