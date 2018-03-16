@@ -3,5 +3,5 @@
     <label id="StepsLabel" x="center" y="50" justification="Gfx.TEXT_JUSTIFY_CENTER" />
     <label id="TimeLabel" x="center" y="75" justification="Gfx.TEXT_JUSTIFY_CENTER" />
     <label id="DateLabel" x="center" y="140" justification="Gfx.TEXT_JUSTIFY_CENTER" />
-    <label id="HeartRateLabel" x="center" y="175" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label id="DistanceLabel" x="center" y="175" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 </layout>

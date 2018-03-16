@@ -15,6 +15,8 @@ class FitFaceView extends Ui.WatchFace {
         if (!Sys.getDeviceSettings().is24Hour) {
             if (hours > 12) {
                 hours = hours - 12;
+            } else if (hours == 0) {
+                hours = 12;
             }
         } else {
             if (App.getApp().getProperty("UseMilitaryFormat")) {
@@ -86,29 +88,44 @@ class FitFaceView extends Ui.WatchFace {
         dateView.setText(dateString);
     }
     
-    function getHeartRate() {
-        return 185;
+    function isMetric() {
+        return Sys.getDeviceSettings().distanceUnits == System.UNIT_METRIC;
     }
     
-    function getHeartRateString() {
-        return Lang.format("$1$", [getHeartRate()]);
+    function getDistance() {
+        var distance = ActivityMonitor.getInfo().distance;
+        
+        if (isMetric()) {
+            distance = distance / 100000; 
+        } else {
+            distance = distance * 0.0000062137;
+        }
+        
+        return distance;
     }
     
-    function updateHeartRateDisplay() {
-        var heartRateString = getHeartRateString();              
+    function getDistanceString() {
+        var formattedDistance = getDistance().toDouble().format("%.1f");
+        var unit = isMetric() ? "km" : "mi";
+        
+        return Lang.format("$1$ $2$", [formattedDistance, unit]);
+    }
+    
+    function updateDistanceDisplay() {
+        var distanceString = getDistanceString();
         var font = Ui.loadResource(Rez.Fonts.Carlito);
         
-        var heartRateView = View.findDrawableById("HeartRateLabel");
-        heartRateView.setFont(font);
-        heartRateView.setColor(0xffaaaa);
-        heartRateView.setText(heartRateString);
+        var distanceView = View.findDrawableById("DistanceLabel");
+        distanceView.setFont(font);
+        distanceView.setColor(0xffaaaa);
+        distanceView.setText(distanceString);
     }
     
     function updateTextFields() {
         updateTimeDisplay();
         updateDateDisplay(); 
         updateStepsDisplay();
-        updateHeartRateDisplay();
+        updateDistanceDisplay();
     }
     
     function getArcAngle() {
@@ -135,15 +152,15 @@ class FitFaceView extends Ui.WatchFace {
         dc.setColor(0xaaaaaa, Gfx.COLOR_TRANSPARENT);
         dc.setPenWidth(2);
         
-        dc.drawCircle(width/2, height/2, (width/2)-6);
+        dc.drawCircle(width/2, height/2, (width/2)-7);
         
         var steps = getSteps();
         var angle = getArcAngle();
                         
         dc.setColor(0xffaa00, Gfx.COLOR_TRANSPARENT);
-        dc.setPenWidth(12);
+        dc.setPenWidth(14);
         if (steps > 0) {
-            dc.drawArc(width/2, height/2, (width/2)-5, dc.ARC_CLOCKWISE, 90, angle);
+            dc.drawArc(width/2, height/2, (width/2)-7, dc.ARC_CLOCKWISE, 90, angle);
         }        
     }
     
@@ -184,7 +201,6 @@ class FitFaceView extends Ui.WatchFace {
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() {
         updateStepsDisplay();
-        updateHeartRateDisplay();
     }
 
     // Terminate any active timers and prepare for slow updates.
