@@ -1,146 +1,146 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceBackground.mc" lineNum="7" pc="268435456" symbol="initialize"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceBackground.mc" lineNum="8" pc="268435460" symbol="initialize"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceBackground.mc" lineNum="12" pc="268435481" symbol="initialize"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceBackground.mc" lineNum="15" pc="268435502" symbol="draw"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceBackground.mc" lineNum="17" pc="268435506" symbol="draw"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceBackground.mc" lineNum="18" pc="268435528" symbol="draw"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="11" pc="268435541" symbol="getTimeString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="12" pc="268435545" symbol="getTimeString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="13" pc="268435552" symbol="getTimeString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="14" pc="268435569" symbol="getTimeString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="15" pc="268435579" symbol="getTimeString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="16" pc="268435604" symbol="getTimeString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="17" pc="268435615" symbol="getTimeString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="18" pc="268435628" symbol="getTimeString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="19" pc="268435639" symbol="getTimeString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="22" pc="268435652" symbol="getTimeString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="23" pc="268435684" symbol="getTimeString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="24" pc="268435691" symbol="getTimeString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="27" pc="268435712" symbol="getTimeString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="30" pc="268435777" symbol="getDateString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="31" pc="268435781" symbol="getDateString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="32" pc="268435825" symbol="getDateString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="34" pc="268435832" symbol="getDateString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="37" pc="268435905" symbol="getSteps"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="38" pc="268435909" symbol="getSteps"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="39" pc="268435932" symbol="getSteps"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="40" pc="268435939" symbol="getSteps"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="43" pc="268435949" symbol="getSteps"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="46" pc="268435953" symbol="getStepGoal"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="47" pc="268435957" symbol="getStepGoal"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="48" pc="268435980" symbol="getStepGoal"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="49" pc="268435987" symbol="getStepGoal"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="52" pc="268435997" symbol="getStepGoal"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="55" pc="268436001" symbol="getStepString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="56" pc="268436005" symbol="getStepString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="58" pc="268436018" symbol="getStepString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="61" pc="268436056" symbol="updateStepsDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="62" pc="268436060" symbol="updateStepsDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="63" pc="268436073" symbol="updateStepsDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="65" pc="268436110" symbol="updateStepsDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="66" pc="268436134" symbol="updateStepsDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="67" pc="268436148" symbol="updateStepsDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="68" pc="268436165" symbol="updateStepsDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="71" pc="268436180" symbol="updateTimeDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="72" pc="268436184" symbol="updateTimeDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="73" pc="268436197" symbol="updateTimeDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="75" pc="268436234" symbol="updateTimeDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="76" pc="268436258" symbol="updateTimeDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="77" pc="268436272" symbol="updateTimeDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="78" pc="268436289" symbol="updateTimeDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="81" pc="268436304" symbol="updateDateDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="82" pc="268436308" symbol="updateDateDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="83" pc="268436321" symbol="updateDateDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="85" pc="268436358" symbol="updateDateDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="86" pc="268436382" symbol="updateDateDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="87" pc="268436396" symbol="updateDateDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="88" pc="268436413" symbol="updateDateDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="91" pc="268436428" symbol="isMetric"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="92" pc="268436432" symbol="isMetric"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="95" pc="268436470" symbol="getDistance"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="96" pc="268436474" symbol="getDistance"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="98" pc="268436497" symbol="getDistance"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="99" pc="268436511" symbol="getDistance"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="101" pc="268436524" symbol="getDistance"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="104" pc="268436534" symbol="getDistance"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="107" pc="268436538" symbol="getDistanceString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="108" pc="268436542" symbol="getDistanceString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="109" pc="268436578" symbol="getDistanceString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="111" pc="268436607" symbol="getDistanceString"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="114" pc="268436655" symbol="updateDistanceDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="115" pc="268436659" symbol="updateDistanceDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="116" pc="268436672" symbol="updateDistanceDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="118" pc="268436709" symbol="updateDistanceDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="119" pc="268436733" symbol="updateDistanceDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="120" pc="268436747" symbol="updateDistanceDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="121" pc="268436764" symbol="updateDistanceDisplay"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="124" pc="268436779" symbol="updateTextFields"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="125" pc="268436783" symbol="updateTextFields"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="126" pc="268436795" symbol="updateTextFields"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="127" pc="268436807" symbol="updateTextFields"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="128" pc="268436819" symbol="updateTextFields"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="131" pc="268436832" symbol="getArcAngle"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="132" pc="268436836" symbol="getArcAngle"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="133" pc="268436849" symbol="getArcAngle"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="135" pc="268436862" symbol="getArcAngle"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="136" pc="268436869" symbol="getArcAngle"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="137" pc="268436877" symbol="getArcAngle"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="140" pc="268436893" symbol="getArcAngle"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="141" pc="268436903" symbol="getArcAngle"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="142" pc="268436914" symbol="getArcAngle"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="145" pc="268436927" symbol="getArcAngle"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="148" pc="268436931" symbol="drawStepArc"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="149" pc="268436935" symbol="drawStepArc"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="150" pc="268436948" symbol="drawStepArc"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="152" pc="268436961" symbol="drawStepArc"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="153" pc="268436990" symbol="drawStepArc"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="155" pc="268437007" symbol="drawStepArc"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="157" pc="268437049" symbol="drawStepArc"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="158" pc="268437062" symbol="drawStepArc"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="160" pc="268437075" symbol="drawStepArc"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="161" pc="268437104" symbol="drawStepArc"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="162" pc="268437121" symbol="drawStepArc"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="163" pc="268437132" symbol="drawStepArc"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="167" pc="268437193" symbol="initialize"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="168" pc="268437197" symbol="initialize"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="172" pc="268437216" symbol="onLayout"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="173" pc="268437220" symbol="onLayout"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="174" pc="268437247" symbol="onLayout"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="180" pc="268437262" symbol="onShow"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="184" pc="268437267" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="186" pc="268437271" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="189" pc="268437283" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="192" pc="268437303" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="198" pc="268437318" symbol="onHide"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="202" pc="268437323" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="203" pc="268437327" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceView.mc" lineNum="207" pc="268437340" symbol="onEnterSleep"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceApp.mc" lineNum="6" pc="268437345" symbol="initialize"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceApp.mc" lineNum="7" pc="268437349" symbol="initialize"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceApp.mc" lineNum="11" pc="268437368" symbol="onStart"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceApp.mc" lineNum="15" pc="268437373" symbol="onStop"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceApp.mc" lineNum="19" pc="268437378" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceApp.mc" lineNum="20" pc="268437382" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceApp.mc" lineNum="24" pc="268437420" symbol="onSettingsChanged"/>
-<entry filename="C:\\Users\\Logan\\eclipse-workspace\\FitFace\\.\\source\\FitFaceApp.mc" lineNum="25" pc="268437424" symbol="onSettingsChanged"/>
-<entry filename="Rez" lineNum="29" pc="268437441" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="33" pc="268437453" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="34" pc="268437477" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="35" pc="268437605" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="36" pc="268437630" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="37" pc="268437682" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="38" pc="268437810" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="39" pc="268437835" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="40" pc="268437887" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="41" pc="268438015" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="42" pc="268438040" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="43" pc="268438092" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="44" pc="268438220" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="45" pc="268438245" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="48" pc="268438297" symbol="WatchFace"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceBackground.mc" id="3" lineNum="7" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceBackground.mc" id="3" lineNum="8" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceBackground.mc" id="3" lineNum="12" pc="268435481" symbol="initialize"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceBackground.mc" id="4" lineNum="15" pc="268435502" symbol="draw"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceBackground.mc" id="4" lineNum="17" pc="268435506" symbol="draw"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceBackground.mc" id="4" lineNum="18" pc="268435528" symbol="draw"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceApp.mc" id="6" lineNum="6" pc="268435541" symbol="initialize"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceApp.mc" id="6" lineNum="7" pc="268435545" symbol="initialize"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceApp.mc" id="7" lineNum="11" pc="268435564" symbol="onStart"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceApp.mc" id="8" lineNum="15" pc="268435569" symbol="onStop"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceApp.mc" id="9" lineNum="19" pc="268435574" symbol="getInitialView"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceApp.mc" id="9" lineNum="20" pc="268435578" symbol="getInitialView"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceApp.mc" id="10" lineNum="24" pc="268435616" symbol="onSettingsChanged"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceApp.mc" id="10" lineNum="25" pc="268435620" symbol="onSettingsChanged"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="12" lineNum="11" pc="268435637" symbol="getTimeString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="12" lineNum="12" pc="268435641" symbol="getTimeString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="12" lineNum="13" pc="268435648" symbol="getTimeString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="12" lineNum="14" pc="268435665" symbol="getTimeString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="12" lineNum="15" pc="268435675" symbol="getTimeString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="12" lineNum="16" pc="268435700" symbol="getTimeString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="12" lineNum="17" pc="268435711" symbol="getTimeString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="12" lineNum="18" pc="268435724" symbol="getTimeString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="12" lineNum="19" pc="268435735" symbol="getTimeString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="12" lineNum="22" pc="268435748" symbol="getTimeString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="12" lineNum="23" pc="268435780" symbol="getTimeString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="12" lineNum="24" pc="268435787" symbol="getTimeString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="12" lineNum="27" pc="268435808" symbol="getTimeString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="13" lineNum="30" pc="268435873" symbol="getDateString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="13" lineNum="31" pc="268435877" symbol="getDateString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="13" lineNum="32" pc="268435921" symbol="getDateString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="13" lineNum="34" pc="268435928" symbol="getDateString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="14" lineNum="37" pc="268436001" symbol="getSteps"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="14" lineNum="38" pc="268436005" symbol="getSteps"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="14" lineNum="39" pc="268436028" symbol="getSteps"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="14" lineNum="40" pc="268436035" symbol="getSteps"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="14" lineNum="43" pc="268436045" symbol="getSteps"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="15" lineNum="46" pc="268436049" symbol="getStepGoal"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="15" lineNum="47" pc="268436053" symbol="getStepGoal"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="15" lineNum="48" pc="268436076" symbol="getStepGoal"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="15" lineNum="49" pc="268436083" symbol="getStepGoal"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="15" lineNum="52" pc="268436093" symbol="getStepGoal"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="16" lineNum="55" pc="268436097" symbol="getStepString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="16" lineNum="56" pc="268436101" symbol="getStepString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="16" lineNum="58" pc="268436114" symbol="getStepString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="17" lineNum="61" pc="268436152" symbol="updateStepsDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="17" lineNum="62" pc="268436156" symbol="updateStepsDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="17" lineNum="63" pc="268436169" symbol="updateStepsDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="17" lineNum="65" pc="268436206" symbol="updateStepsDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="17" lineNum="66" pc="268436230" symbol="updateStepsDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="17" lineNum="67" pc="268436244" symbol="updateStepsDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="17" lineNum="68" pc="268436261" symbol="updateStepsDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="18" lineNum="71" pc="268436276" symbol="updateTimeDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="18" lineNum="72" pc="268436280" symbol="updateTimeDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="18" lineNum="73" pc="268436293" symbol="updateTimeDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="18" lineNum="75" pc="268436330" symbol="updateTimeDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="18" lineNum="76" pc="268436354" symbol="updateTimeDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="18" lineNum="77" pc="268436368" symbol="updateTimeDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="18" lineNum="78" pc="268436385" symbol="updateTimeDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="19" lineNum="81" pc="268436400" symbol="updateDateDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="19" lineNum="82" pc="268436404" symbol="updateDateDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="19" lineNum="83" pc="268436417" symbol="updateDateDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="19" lineNum="85" pc="268436454" symbol="updateDateDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="19" lineNum="86" pc="268436478" symbol="updateDateDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="19" lineNum="87" pc="268436492" symbol="updateDateDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="19" lineNum="88" pc="268436509" symbol="updateDateDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="20" lineNum="91" pc="268436524" symbol="isMetric"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="20" lineNum="92" pc="268436528" symbol="isMetric"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="21" lineNum="95" pc="268436566" symbol="getDistance"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="21" lineNum="96" pc="268436570" symbol="getDistance"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="21" lineNum="98" pc="268436593" symbol="getDistance"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="21" lineNum="99" pc="268436607" symbol="getDistance"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="21" lineNum="101" pc="268436620" symbol="getDistance"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="21" lineNum="104" pc="268436630" symbol="getDistance"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="22" lineNum="107" pc="268436634" symbol="getDistanceString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="22" lineNum="108" pc="268436638" symbol="getDistanceString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="22" lineNum="109" pc="268436674" symbol="getDistanceString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="22" lineNum="111" pc="268436703" symbol="getDistanceString"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="23" lineNum="114" pc="268436751" symbol="updateDistanceDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="23" lineNum="115" pc="268436755" symbol="updateDistanceDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="23" lineNum="116" pc="268436768" symbol="updateDistanceDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="23" lineNum="118" pc="268436805" symbol="updateDistanceDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="23" lineNum="119" pc="268436829" symbol="updateDistanceDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="23" lineNum="120" pc="268436843" symbol="updateDistanceDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="23" lineNum="121" pc="268436860" symbol="updateDistanceDisplay"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="24" lineNum="124" pc="268436875" symbol="updateTextFields"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="24" lineNum="125" pc="268436879" symbol="updateTextFields"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="24" lineNum="126" pc="268436891" symbol="updateTextFields"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="24" lineNum="127" pc="268436903" symbol="updateTextFields"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="24" lineNum="128" pc="268436915" symbol="updateTextFields"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="25" lineNum="131" pc="268436928" symbol="getArcAngle"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="25" lineNum="132" pc="268436932" symbol="getArcAngle"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="25" lineNum="133" pc="268436945" symbol="getArcAngle"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="25" lineNum="135" pc="268436958" symbol="getArcAngle"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="25" lineNum="136" pc="268436965" symbol="getArcAngle"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="25" lineNum="137" pc="268436973" symbol="getArcAngle"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="25" lineNum="140" pc="268436989" symbol="getArcAngle"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="25" lineNum="141" pc="268436999" symbol="getArcAngle"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="25" lineNum="142" pc="268437010" symbol="getArcAngle"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="25" lineNum="145" pc="268437023" symbol="getArcAngle"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="26" lineNum="148" pc="268437027" symbol="drawStepArc"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="26" lineNum="149" pc="268437031" symbol="drawStepArc"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="26" lineNum="150" pc="268437044" symbol="drawStepArc"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="26" lineNum="152" pc="268437057" symbol="drawStepArc"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="26" lineNum="153" pc="268437086" symbol="drawStepArc"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="26" lineNum="155" pc="268437103" symbol="drawStepArc"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="26" lineNum="157" pc="268437145" symbol="drawStepArc"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="26" lineNum="158" pc="268437158" symbol="drawStepArc"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="26" lineNum="160" pc="268437171" symbol="drawStepArc"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="26" lineNum="161" pc="268437200" symbol="drawStepArc"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="26" lineNum="162" pc="268437217" symbol="drawStepArc"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="26" lineNum="163" pc="268437228" symbol="drawStepArc"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="27" lineNum="167" pc="268437289" symbol="initialize"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="27" lineNum="168" pc="268437293" symbol="initialize"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="28" lineNum="172" pc="268437312" symbol="onLayout"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="28" lineNum="173" pc="268437316" symbol="onLayout"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="28" lineNum="174" pc="268437343" symbol="onLayout"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="29" lineNum="180" pc="268437358" symbol="onShow"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="30" lineNum="184" pc="268437363" symbol="onUpdate"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="30" lineNum="186" pc="268437367" symbol="onUpdate"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="30" lineNum="189" pc="268437379" symbol="onUpdate"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="30" lineNum="192" pc="268437399" symbol="onUpdate"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="31" lineNum="198" pc="268437414" symbol="onHide"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="32" lineNum="202" pc="268437419" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="32" lineNum="203" pc="268437423" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\digge\\Documents\\Garmin Projects\\FitFace\\source\\FitFaceView.mc" id="33" lineNum="207" pc="268437436" symbol="onEnterSleep"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="40" lineNum="31" pc="268437441" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="40" lineNum="35" pc="268437453" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="40" lineNum="36" pc="268437477" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="40" lineNum="37" pc="268437613" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="40" lineNum="38" pc="268437646" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="40" lineNum="39" pc="268437698" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="40" lineNum="40" pc="268437834" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="40" lineNum="41" pc="268437867" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="40" lineNum="42" pc="268437919" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="40" lineNum="43" pc="268438055" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="40" lineNum="44" pc="268438088" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="40" lineNum="45" pc="268438140" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="40" lineNum="46" pc="268438276" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="40" lineNum="47" pc="268438309" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="40" lineNum="50" pc="268438361" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="35" method="true" symbol="getDistance"/>
@@ -161,6 +161,7 @@
 <entry id="8389068" method="true" symbol="draw"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
 <entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
 <entry field="true" id="23" symbol="ColorBlack"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="32" method="true" symbol="updateTimeDisplay"/>
@@ -175,6 +176,7 @@
 <entry id="8390146" module="true" object="true" symbol="Background"/>
 <entry field="true" id="13" symbol="LauncherIcon"/>
 <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="33" method="true" symbol="updateDateDisplay"/>
 <entry field="true" id="8389065" symbol="locY"/>
@@ -191,7 +193,7 @@
 <entry field="true" id="20" symbol="BackgroundColorTitle"/>
 <entry id="38" method="true" symbol="updateTextFields"/>
 <entry id="12" module="true" symbol="Layouts"/>
-<entry id="10" object="true" symbol="FitFaceApp"/>
+<entry id="9" object="true" symbol="FitFaceApp"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry field="true" id="22" symbol="MilitaryFormatTitle"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
@@ -201,59 +203,59 @@
 <entry id="40" method="true" symbol="drawStepArc"/>
 <entry field="true" id="14" symbol="Carlito"/>
 <entry id="36" method="true" symbol="getDistanceString"/>
-<entry id="9" object="true" symbol="FitFaceView"/>
+<entry id="10" object="true" symbol="FitFaceView"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry id="8388633" module="true" symbol="ActivityMonitor"/>
 </symbolTable>
 <localVars>
 <entry endPc="268435501" name="dictionary" stackId="1" startPc="268435460"/>
 <entry endPc="268435541" name="dc" stackId="1" startPc="268435502"/>
-<entry endPc="268435776" name="hours" stackId="3" startPc="268435545"/>
-<entry endPc="268435776" name="clockTime" stackId="2" startPc="268435545"/>
-<entry endPc="268435776" name="timeFormat" stackId="1" startPc="268435545"/>
-<entry endPc="268435904" name="dateFormat" stackId="2" startPc="268435781"/>
-<entry endPc="268435904" name="date" stackId="1" startPc="268435781"/>
-<entry endPc="268435952" name="steps" stackId="1" startPc="268435909"/>
-<entry endPc="268436000" name="stepGoal" stackId="1" startPc="268435957"/>
-<entry endPc="268436055" name="steps" stackId="1" startPc="268436005"/>
-<entry endPc="268436179" name="font" stackId="2" startPc="268436060"/>
-<entry endPc="268436179" name="stepsView" stackId="3" startPc="268436060"/>
-<entry endPc="268436179" name="stepsString" stackId="1" startPc="268436060"/>
-<entry endPc="268436303" name="font" stackId="2" startPc="268436184"/>
-<entry endPc="268436303" name="timeView" stackId="3" startPc="268436184"/>
-<entry endPc="268436303" name="timeString" stackId="1" startPc="268436184"/>
-<entry endPc="268436427" name="dateView" stackId="3" startPc="268436308"/>
-<entry endPc="268436427" name="font" stackId="2" startPc="268436308"/>
-<entry endPc="268436427" name="dateString" stackId="1" startPc="268436308"/>
-<entry endPc="268436537" name="distance" stackId="1" startPc="268436474"/>
-<entry endPc="268436654" name="formattedDistance" stackId="1" startPc="268436542"/>
-<entry endPc="268436654" name="unit" stackId="2" startPc="268436542"/>
-<entry endPc="268436778" name="distanceString" stackId="1" startPc="268436659"/>
-<entry endPc="268436778" name="font" stackId="2" startPc="268436659"/>
-<entry endPc="268436778" name="distanceView" stackId="3" startPc="268436659"/>
-<entry endPc="268436930" name="steps" stackId="1" startPc="268436836"/>
-<entry endPc="268436930" name="arc_angle" stackId="3" startPc="268436836"/>
-<entry endPc="268436930" name="stepGoal" stackId="2" startPc="268436836"/>
-<entry endPc="268437192" name="height" stackId="2" startPc="268436935"/>
-<entry endPc="268437192" name="steps" stackId="4" startPc="268436935"/>
-<entry endPc="268437192" name="width" stackId="3" startPc="268436935"/>
-<entry endPc="268437192" name="angle" stackId="5" startPc="268436935"/>
-<entry endPc="268437193" name="dc" stackId="1" startPc="268436931"/>
-<entry endPc="268437261" name="layout" stackId="2" startPc="268437220"/>
-<entry endPc="268437262" name="dc" stackId="1" startPc="268437216"/>
-<entry endPc="268437318" name="dc" stackId="1" startPc="268437267"/>
-<entry endPc="268437373" name="state" stackId="1" startPc="268437368"/>
-<entry endPc="268437378" name="state" stackId="1" startPc="268437373"/>
-<entry endPc="268438354" name="rez_cmp_local_bitmap_DateLabel_fontHeight" stackId="8" startPc="268437453"/>
-<entry endPc="268438354" name="rez_cmp_local_bitmap_StepsLabel_fontHeight" stackId="4" startPc="268437453"/>
-<entry endPc="268438354" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="6" startPc="268437453"/>
-<entry endPc="268438354" name="rez_cmp_local_bitmap_TimeLabel" stackId="5" startPc="268437453"/>
-<entry endPc="268438354" name="rez_cmp_local_bitmap_StepsLabel" stackId="3" startPc="268437453"/>
-<entry endPc="268438354" name="rez_cmp_local_bitmap_DistanceLabel" stackId="9" startPc="268437453"/>
-<entry endPc="268438354" name="rez_cmp_local_bitmap_DistanceLabel_fontHeight" stackId="10" startPc="268437453"/>
-<entry endPc="268438354" name="rez_cmp_local_bitmap_DateLabel" stackId="7" startPc="268437453"/>
-<entry endPc="268438354" name="rez_cmp_local_custom_drawable_BOBET655P4Z8TVRFTLVJ" stackId="2" startPc="268437453"/>
-<entry endPc="268438355" name="dc" stackId="1" startPc="268437441"/>
+<entry endPc="268435569" name="state" stackId="1" startPc="268435564"/>
+<entry endPc="268435574" name="state" stackId="1" startPc="268435569"/>
+<entry endPc="268435872" name="hours" stackId="3" startPc="268435641"/>
+<entry endPc="268435872" name="clockTime" stackId="2" startPc="268435641"/>
+<entry endPc="268435872" name="timeFormat" stackId="1" startPc="268435641"/>
+<entry endPc="268436000" name="dateFormat" stackId="2" startPc="268435877"/>
+<entry endPc="268436000" name="date" stackId="1" startPc="268435877"/>
+<entry endPc="268436048" name="steps" stackId="1" startPc="268436005"/>
+<entry endPc="268436096" name="stepGoal" stackId="1" startPc="268436053"/>
+<entry endPc="268436151" name="steps" stackId="1" startPc="268436101"/>
+<entry endPc="268436275" name="font" stackId="2" startPc="268436156"/>
+<entry endPc="268436275" name="stepsView" stackId="3" startPc="268436156"/>
+<entry endPc="268436275" name="stepsString" stackId="1" startPc="268436156"/>
+<entry endPc="268436399" name="font" stackId="2" startPc="268436280"/>
+<entry endPc="268436399" name="timeView" stackId="3" startPc="268436280"/>
+<entry endPc="268436399" name="timeString" stackId="1" startPc="268436280"/>
+<entry endPc="268436523" name="dateView" stackId="3" startPc="268436404"/>
+<entry endPc="268436523" name="font" stackId="2" startPc="268436404"/>
+<entry endPc="268436523" name="dateString" stackId="1" startPc="268436404"/>
+<entry endPc="268436633" name="distance" stackId="1" startPc="268436570"/>
+<entry endPc="268436750" name="formattedDistance" stackId="1" startPc="268436638"/>
+<entry endPc="268436750" name="unit" stackId="2" startPc="268436638"/>
+<entry endPc="268436874" name="distanceString" stackId="1" startPc="268436755"/>
+<entry endPc="268436874" name="font" stackId="2" startPc="268436755"/>
+<entry endPc="268436874" name="distanceView" stackId="3" startPc="268436755"/>
+<entry endPc="268437026" name="steps" stackId="1" startPc="268436932"/>
+<entry endPc="268437026" name="arc_angle" stackId="3" startPc="268436932"/>
+<entry endPc="268437026" name="stepGoal" stackId="2" startPc="268436932"/>
+<entry endPc="268437288" name="height" stackId="2" startPc="268437031"/>
+<entry endPc="268437288" name="steps" stackId="4" startPc="268437031"/>
+<entry endPc="268437288" name="width" stackId="3" startPc="268437031"/>
+<entry endPc="268437288" name="angle" stackId="5" startPc="268437031"/>
+<entry endPc="268437289" name="dc" stackId="1" startPc="268437027"/>
+<entry endPc="268437357" name="layout" stackId="2" startPc="268437316"/>
+<entry endPc="268437358" name="dc" stackId="1" startPc="268437312"/>
+<entry endPc="268437414" name="dc" stackId="1" startPc="268437363"/>
+<entry endPc="268438418" name="rez_cmp_local_bitmap_DateLabel_fontHeight" stackId="8" startPc="268437453"/>
+<entry endPc="268438418" name="rez_cmp_local_bitmap_StepsLabel_fontHeight" stackId="4" startPc="268437453"/>
+<entry endPc="268438418" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="6" startPc="268437453"/>
+<entry endPc="268438418" name="rez_cmp_local_bitmap_TimeLabel" stackId="5" startPc="268437453"/>
+<entry endPc="268438418" name="rez_cmp_local_bitmap_StepsLabel" stackId="3" startPc="268437453"/>
+<entry endPc="268438418" name="rez_cmp_local_bitmap_DistanceLabel" stackId="9" startPc="268437453"/>
+<entry endPc="268438418" name="rez_cmp_local_custom_drawable_37110272231889771110" stackId="2" startPc="268437453"/>
+<entry endPc="268438418" name="rez_cmp_local_bitmap_DistanceLabel_fontHeight" stackId="10" startPc="268437453"/>
+<entry endPc="268438418" name="rez_cmp_local_bitmap_DateLabel" stackId="7" startPc="268437453"/>
+<entry endPc="268438419" name="dc" stackId="1" startPc="268437441"/>
 </localVars>
 <annotations/>
 <functions>
@@ -262,6 +264,23 @@
 </functionEntry>
 <functionEntry accessMode="public" name="draw" parent="Background">
 <param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="FitFaceApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="FitFaceApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="FitFaceApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="FitFaceApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSettingsChanged" parent="FitFaceApp">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="getTimeString" parent="FitFaceView">
@@ -331,23 +350,6 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onEnterSleep" parent="FitFaceView">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="FitFaceApp">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onStart" parent="FitFaceApp">
-<param id="state"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onStop" parent="FitFaceApp">
-<param id="state"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getInitialView" parent="FitFaceApp">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onSettingsChanged" parent="FitFaceApp">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="WatchFace" parent="Layouts">
