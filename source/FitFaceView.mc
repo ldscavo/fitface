@@ -8,39 +8,37 @@ using Toybox.Time.Gregorian;
 using Toybox.ActivityMonitor;
 
 class FitFaceView extends Ui.WatchFace {
+  private var _settings as Lang.DeviceSettings;
+
+  function getFormattedHour(hour) {
+    return (!_settings.is24Hour && hour > 12)
+      ? hour - 12
+      : (hour != 0) ? hour : 12;
+  }
+
   function getTimeString() {
-    var timeFormat = "$1$:$2$";
     var clockTime = Sys.getClockTime();
-    var hours = clockTime.hour;
-    if (!Sys.getDeviceSettings().is24Hour) {
-      if (hours > 12) {
-        hours = hours - 12;
-      } else if (hours == 0) {
-        hours = 12;
-      }
-    } else {
-      if (App.getApp().getProperty("UseMilitaryFormat")) {
-        timeFormat = "$1$$2$";
-        hours = hours.format("%02d");
-      }
-    }
-    return Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
+    
+    return Lang.format("$1$:$2$", [
+      getFormattedHour(clockTime.hour),
+      clockTime.min.format("%02d")
+    ]);
   }
   
   function getDateString() {
     var date = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-    var dateFormat = "$1$ $2$ $3$";
     
-    return Lang.format(dateFormat, [date.day_of_week, date.month, date.day]);
+    return Lang.format("$1$ $2$ $3$", [
+      date.day_of_week,
+      date.month,
+      date.day
+    ]);
   }
   
   function getSteps() {
     var steps = ActivityMonitor.getInfo().steps;
-    if (steps == null) {
-      steps = 0;
-    }
     
-    return steps;
+    return steps != null ? steps : 0;
   }
   
   function getStepGoal() {
@@ -88,25 +86,17 @@ class FitFaceView extends Ui.WatchFace {
     dateView.setText(dateString);
   }
   
-  function isMetric() {
-    return Sys.getDeviceSettings().distanceUnits == System.UNIT_METRIC;
-  }
-  
   function getDistance() {
     var distance = ActivityMonitor.getInfo().distance;
     
-    if (isMetric()) {
-      distance = distance / 100000; 
-    } else {
-      distance = distance * 0.0000062137;
-    }
-    
-    return distance;
+    return _settings.distanceUnits == System.UNIT_METRIC
+      ? distance / 100000
+      : distance * 0.0000062137;
   }
   
   function getDistanceString() {
     var formattedDistance = getDistance().toDouble().format("%.1f");
-    var unit = isMetric() ? "km" : "mi";
+    var unit = _settings.distanceUnits == System.UNIT_METRIC ? "km" : "mi";
     
     return Lang.format("$1$ $2$", [formattedDistance, unit]);
   }
@@ -165,6 +155,8 @@ class FitFaceView extends Ui.WatchFace {
   }
   
   function initialize() {
+    _settings = Sys.getDeviceSettings();
+
     WatchFace.initialize();
   }
 
