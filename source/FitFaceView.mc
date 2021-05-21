@@ -9,32 +9,25 @@ using Toybox.ActivityMonitor;
 
 class FitFaceView extends Ui.WatchFace {
   private var _settings as Lang.DeviceSettings;
+  private var _fontRegular as FontReference;
+  private var _fontLarge as FontReference;
 
-  function getFormattedHour(hour) {
+  function initialize() {
+    _settings = Sys.getDeviceSettings();
+    _fontRegular = Ui.loadResource(Rez.Fonts.Carlito);
+    _fontLarge = Ui.loadResource(Rez.Fonts.Carlito_Large);
+
+    WatchFace.initialize();
+  }
+
+  //////////////////////////////////
+
+  function formatHour(hour) {
     return (!_settings.is24Hour && hour > 12)
       ? hour - 12
       : (hour != 0) ? hour : 12;
   }
-
-  function getTimeString() {
-    var clockTime = Sys.getClockTime();
-    
-    return Lang.format("$1$:$2$", [
-      getFormattedHour(clockTime.hour),
-      clockTime.min.format("%02d")
-    ]);
-  }
-  
-  function getDateString() {
-    var date = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-    
-    return Lang.format("$1$ $2$ $3$", [
-      date.day_of_week,
-      date.month,
-      date.day
-    ]);
-  }
-  
+      
   function getSteps() {
     var steps = ActivityMonitor.getInfo().steps;
     
@@ -43,47 +36,8 @@ class FitFaceView extends Ui.WatchFace {
   
   function getStepGoal() {
     var stepGoal = ActivityMonitor.getInfo().stepGoal;
-    if (stepGoal == null) {
-      stepGoal = 0;
-    }
-    
-    return stepGoal;
-  }
-  
-  function getStepString() {
-    var steps = getSteps();
-    
-    return Lang.format("$1$ Steps", [steps]);
-  }
-  
-  function updateStepsDisplay() {
-    var stepsString = getStepString();
-    var font = Ui.loadResource(Rez.Fonts.Carlito);
-    
-    var stepsView = View.findDrawableById("StepsLabel");
-    stepsView.setFont(font);
-    stepsView.setColor(0xffaaaa);
-    stepsView.setText(stepsString);
-  }
-  
-  function updateTimeDisplay() {
-    var timeString = getTimeString();
-    var font = Ui.loadResource(Rez.Fonts.Carlito_Large);
-    
-    var timeView = View.findDrawableById("TimeLabel");
-    timeView.setFont(font);
-    timeView.setColor(0xffffff);
-    timeView.setText(timeString);
-  }
-  
-  function updateDateDisplay() {
-    var dateString = getDateString();              
-    var font = Ui.loadResource(Rez.Fonts.Carlito);
-    
-    var dateView = View.findDrawableById("DateLabel");
-    dateView.setFont(font);
-    dateView.setColor(0xffffff);
-    dateView.setText(dateString);
+
+    return stepGoal != null ? stepGoal : 0;
   }
   
   function getDistance() {
@@ -93,22 +47,54 @@ class FitFaceView extends Ui.WatchFace {
       ? distance / 100000
       : distance * 0.0000062137;
   }
+
+  //////////////////////////////////
+
+  function getTimeString() {
+    var clockTime = Sys.getClockTime();
+    
+    return Lang.format("$1$:$2$", [formatHour(clockTime.hour), clockTime.min.format("%02d")]);
+  }
   
+  function getDateString() {
+    var date = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+    
+    return Lang.format("$1$ $2$ $3$", [date.day_of_week, date.month, date.day]);
+  }
+
+  function getStepString() {
+    return Lang.format("$1$ Steps", [getSteps()]);
+  }
+
   function getDistanceString() {
     var formattedDistance = getDistance().toDouble().format("%.1f");
     var unit = _settings.distanceUnits == System.UNIT_METRIC ? "km" : "mi";
     
     return Lang.format("$1$ $2$", [formattedDistance, unit]);
   }
+
+  //////////////////////////////////
+
+  function setDrawableData(drawable, font, color, text) {
+    drawable.setFont(font);
+    drawable.setColor(color);
+    drawable.setText(text);
+  }
   
+  function updateStepsDisplay() {
+    setDrawableData(View.findDrawableById("StepsLabel"), _fontRegular, 0xffaaaa, getStepString());
+  }
+  
+  function updateTimeDisplay() {
+    setDrawableData(View.findDrawableById("TimeLabel"), _fontLarge, 0xffffff, getTimeString());
+  }
+  
+  function updateDateDisplay() {
+    setDrawableData(View.findDrawableById("DateLabel"), _fontRegular, 0xffffff, getDateString());
+  }
+
   function updateDistanceDisplay() {
-    var distanceString = getDistanceString();
-    var font = Ui.loadResource(Rez.Fonts.Carlito);
-    
-    var distanceView = View.findDrawableById("DistanceLabel");
-    distanceView.setFont(font);
-    distanceView.setColor(0xffaaaa);
-    distanceView.setText(distanceString);
+    setDrawableData(View.findDrawableById("DistanceLabel"), _fontRegular, 0xffaaaa, getDistanceString());
   }
   
   function updateTextFields() {
@@ -117,6 +103,8 @@ class FitFaceView extends Ui.WatchFace {
     updateStepsDisplay();
     updateDistanceDisplay();
   }
+
+  //////////////////////////////////
   
   function getArcAngle() {
     var steps = getSteps();
@@ -153,13 +141,7 @@ class FitFaceView extends Ui.WatchFace {
       dc.drawArc(width/2, height/2, (width/2)-7, dc.ARC_CLOCKWISE, 90, angle);
     }        
   }
-  
-  function initialize() {
-    _settings = Sys.getDeviceSettings();
-
-    WatchFace.initialize();
-  }
-
+    
   // Load your resources here
   function onLayout(dc) {
     var layout = Rez.Layouts.WatchFace(dc);
