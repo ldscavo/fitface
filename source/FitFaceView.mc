@@ -137,7 +137,7 @@ class FitFaceView extends Ui.WatchFace {
                     
     dc.setColor(0xffaa00, Gfx.COLOR_TRANSPARENT);
     dc.setPenWidth(14);
-    if (steps > 0) {
+    if ((steps > 0 && angle != 90) || steps >= getStepGoal()) {
       dc.drawArc(width/2, height/2, (width/2)-7, dc.ARC_CLOCKWISE, 90, angle);
     }        
   }
