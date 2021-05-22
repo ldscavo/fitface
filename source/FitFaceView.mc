@@ -25,7 +25,7 @@ class FitFaceView extends Ui.WatchFace {
   function formatHour(hour) {
     return (!_settings.is24Hour && hour > 12)
       ? hour - 12
-      : (hour != 0) ? hour : 12;
+      : hour;
   }
       
   function getSteps() {
@@ -141,7 +141,9 @@ class FitFaceView extends Ui.WatchFace {
       dc.drawArc(width/2, height/2, (width/2)-7, dc.ARC_CLOCKWISE, 90, angle);
     }        
   }
-    
+  
+  //////////////////////////////////
+
   // Load your resources here
   function onLayout(dc) {
     var layout = Rez.Layouts.WatchFace(dc);
