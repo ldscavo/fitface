@@ -6,5 +6,5 @@
     <string id="Fahrenheit">Fahrenheit</string>
     <string id="Steps">Steps</string>
     <string id="Weather">Weather</string>
-    <string id="ApiKey">OpenWeatherMap API Key</string>
+    <string id="ApiKey">OpenWeather API Key</string>
 </strings>
