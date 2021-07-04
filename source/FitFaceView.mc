@@ -23,9 +23,15 @@ class FitFaceView extends Ui.WatchFace {
   //////////////////////////////////
 
   function formatHour(hour) {
-    return (!_settings.is24Hour && hour > 12)
-      ? hour - 12
-      : hour;
+    if (!_settings.is24Hour) {
+      if (hour == 0) {
+        return 12;
+      }
+      if (hour > 12) {
+        return hour - 12;
+      }
+    }
+    return hour;
   }
       
   function getSteps() {
