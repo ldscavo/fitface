@@ -1,10 +1,10 @@
 <strings>
     <string id="AppName">FitFace</string>
     <string id="SecondaryDisplay">Secondary Display</string>
-    <string id="Units">Units</string>
+    <string id="Units">Temperature Units</string>
     <string id="Celsius">Celsius</string>
     <string id="Fahrenheit">Fahrenheit</string>
-    <string id="Steps">Steps</string>
+    <string id="Distance">Distance</string>
     <string id="Weather">Weather</string>
     <string id="ApiKey">OpenWeather API Key</string>
 </strings>

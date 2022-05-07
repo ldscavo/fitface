@@ -1,7 +1,7 @@
 <settings>
   <setting propertyKey="@Properties.SecondaryDisplay" title="@Strings.SecondaryDisplay">
     <settingConfig type="list">
-      <listEntry value="0">@Strings.Steps</listEntry>
+      <listEntry value="0">@Strings.Distance</listEntry>
       <listEntry value="1">@Strings.Weather</listEntry>
     </settingConfig>
   </setting>
