@@ -3,6 +3,8 @@ using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 using Toybox.Lang as Lang;
 using Toybox.Application as App;
+using Toybox.Application.Properties as Properties;
+using Toybox.Application.Storage as Storage;
 using Toybox.Time;
 using Toybox.Time.Gregorian;
 using Toybox.ActivityMonitor;
@@ -74,9 +76,14 @@ class FitFaceView extends Ui.WatchFace {
 
   function getDistanceString() {
     var formattedDistance = getDistance().toDouble().format("%.1f");
+
     var unit = _settings.distanceUnits == System.UNIT_METRIC ? "km" : "mi";
     
     return Lang.format("$1$ $2$", [formattedDistance, unit]);
+  }
+
+  function getWeatherString() {
+    return Storage.getValue("temp");
   }
 
   //////////////////////////////////
@@ -100,7 +107,16 @@ class FitFaceView extends Ui.WatchFace {
   }
 
   function updateDistanceDisplay() {
-    setDrawableData(View.findDrawableById("DistanceLabel"), _fontRegular, 0xffaaaa, getDistanceString());
+    switch (Properties.getValue("SecondaryDisplay")) {
+      case 0:
+        setDrawableData(View.findDrawableById("DistanceLabel"), _fontRegular, 0xffaaaa, getDistanceString());
+        break;
+      case 1:
+      setDrawableData(View.findDrawableById("DistanceLabel"), _fontRegular, 0xffaaaa, getWeatherString());
+        break;
+      case 2:
+        break;
+    }    
   }
   
   function updateTextFields() {

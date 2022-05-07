@@ -3,6 +3,7 @@ using Toybox.WatchUi as Ui;
 using Toybox.Time as Time;
 using Toybox.System as Sys;
 using Toybox.Background;
+using Toybox.Application.Storage as Storage;
 
 class FitFaceApp extends App.AppBase {
   function initialize() {
@@ -10,7 +11,11 @@ class FitFaceApp extends App.AppBase {
   }
 
   // onStart() is called on application start up
-  function onStart(state) {}
+  function onStart(state) {
+    if (Storage.getValue("temp") == null) {
+      Storage.setValue("temp", "");
+    }
+  }
 
   // onStop() is called when your application is exiting
   function onStop(state) {}
@@ -29,6 +34,8 @@ class FitFaceApp extends App.AppBase {
 
   function onBackgroundData(data) {
     Sys.println("onBackgroundData="+data);
+
+    Storage.setValue("temp", data);
     Ui.requestUpdate();
   }   
 
