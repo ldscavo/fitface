@@ -53,8 +53,8 @@ class BackgroundServiceDelegate extends Toybox.System.ServiceDelegate {
     Sys.println("response: " + response);
 
     var formattedResponse = Properties.getValue("Units") == 0
-      ? response.toDouble().format("%.1f") + " C"
-      : response.toNumber().toString() + " F";
+      ? response.toDouble().format("%.1f") + "°C"
+      : response.toNumber().toString() + "°F";
 
     Background.exit(formattedResponse);
   }  
