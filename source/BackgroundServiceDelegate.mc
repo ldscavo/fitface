@@ -2,6 +2,7 @@ using Toybox.Background;
 using Toybox.System as Sys;
 using Toybox.Communications as Comm;
 using Toybox.Application.Properties as Properties;
+using Toybox.Position as Positon;
 
 (:background)
 class BackgroundServiceDelegate extends Toybox.System.ServiceDelegate {
@@ -24,11 +25,23 @@ class BackgroundServiceDelegate extends Toybox.System.ServiceDelegate {
 
     var url = "https://api.openweathermap.org/data/2.5/weather";
     var apiKey = Properties.getValue("ApiKey");
+    var location = Position.getInfo().position;
+
+    if (location == null) {
+      Sys.println("Location is null - cannot continue");
+      return;
+    }
+
+    var coords = location.toDegrees();
+
+    Sys.println("latitude: " + coords[0]);
+    Sys.println("longitude: " + coords[1]);
+
     var params = {
       "appId" => apiKey,
       "units" => units,
-      "lat" => 40.4406,
-      "lon" => -79.9959
+      "lat" => coords[0],
+      "lon" => coords[1]
     };
     var options = {
       :method => Comm.HTTP_REQUEST_METHOD_GET,
