@@ -1,6 +1,7 @@
 using Toybox.Background;
 using Toybox.System as Sys;
 using Toybox.Communications as Comm;
+using Toybox.Application.Properties as Properties;
 
 (:background)
 class BackgroundServiceDelegate extends Toybox.System.ServiceDelegate {
@@ -10,13 +11,22 @@ class BackgroundServiceDelegate extends Toybox.System.ServiceDelegate {
 	}
 	  
   function onTemporalEvent() {
+    if (Properties.getValue("SecondaryDisplay") != 1) {
+      Sys.println("Weather is disabled");
+      return;
+    }
+
     Sys.println("Creating the http request...");
 
+    var units = Properties.getValue("Units") == 0
+      ? "metric"
+      : "imperial";
+
     var url = "https://api.openweathermap.org/data/2.5/weather";
-    var apiKey = "<API Key>";
+    var apiKey = Properties.getValue("ApiKey");
     var params = {
       "appId" => apiKey,
-      "units" => "metric",
+      "units" => units,
       "lat" => 40.4406,
       "lon" => -79.9959
     };
@@ -42,7 +52,11 @@ class BackgroundServiceDelegate extends Toybox.System.ServiceDelegate {
 
     Sys.println("response: " + response);
 
-    Background.exit(response);
+    var formattedResponse = Properties.getValue("Units") == 0
+      ? response.toDouble().format("%.1f") + " C"
+      : response.toNumber().toString() + " F";
+
+    Background.exit(formattedResponse);
   }  
 
 }
