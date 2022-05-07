@@ -35,10 +35,14 @@ class BackgroundServiceDelegate extends Toybox.System.ServiceDelegate {
   function onWeatherReceive(responseCode, data) {
     Sys.println("Got a response!");
     
-    var temp = data["main"]["temp"];
-    Sys.println("temp is " + temp);
+    var response =
+      responseCode == 200
+        ? data["main"]["temp"]
+        : -1;
 
-    Background.exit(responseCode);
+    Sys.println("response: " + response);
+
+    Background.exit(response);
   }  
 
 }
